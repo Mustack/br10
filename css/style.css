@@ -14,6 +14,15 @@ body a{
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.dim{
+    background-color: black;
+    opacity:0.5;
+}
 .overlay{
     position: absolute;
     top: 0;
