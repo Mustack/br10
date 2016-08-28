@@ -23,6 +23,9 @@ body a{
     background-color: black;
     opacity:0.5;
 }
+.overlay-container{
+    position:relative;
+}
 .overlay{
     position: absolute;
     top: 0;
