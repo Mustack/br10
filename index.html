@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html>
 <head>
     <title>Battle Royale 10</title>
@@ -42,16 +41,6 @@
 
         $("#flagSwitcher").click(function() {
             $(".dropdown img.flag").toggleClass("flagvisibility");
-        });
-
-        $('#slider').fwslider({
-            auto:     true,  //auto start
-            speed:    800,   //transition speed
-            pause:    2000,  //pause duration
-            panels:   3,     //number of image panels
-            width:    960,
-            height:   490,
-            nav:      true   //show navigation
         });
     });
     </script>
@@ -132,6 +121,16 @@
                         <!-- Slide image -->
                         <img src="images/slider1.jpg" class="img-responsive" alt=""/>
                         <!-- /Slide image -->
+                        <!-- Texts container -->
+                        <div class="slide_content">
+                            <div class="slide_content_wrap">
+                                <!-- Text title -->
+                                <h1 class="title">Run Over<br>Everything</h1>
+                                <!-- /Text title -->
+                                <div class="button"><a href="#">See Details</a></div>
+                            </div>
+                        </div>
+                        <!-- /Texts container -->
                     </div>
                     <!-- /Duplicate to create more slides -->
                     <div class="slide">
@@ -145,7 +144,11 @@
                     </div>
                     <!--/slide -->
                 </div>
+                <div class="timers hide"></div>
+                <div class="slidePrev hide"><span></span></div>
+                <div class="slideNext hide"><span></span></div>
             </div>
+
             <div class="overlay dim"></div>
             <div class="overlay">
                 <img class="absolute-center" src="images/MainLogo.png" alt="BR10"/>
