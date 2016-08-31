@@ -14,7 +14,28 @@ body a{
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.hide {display: none;}
+.section{
+    padding: 5% 0;
+}
+.section:nth-of-type(odd){
+    color: black;
+}
+.section:nth-of-type(even){
+    color: white;
+}
+.section h3{
+	font-size: 3em;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 1.2em;
+	margin: 0 0 2%;
+}
+.center{
+    text-align: center;
+}
+.hide {
+    display: none;
+}
 .absolute-center {
   margin: auto;
   position: absolute;
@@ -584,7 +605,6 @@ li.list_desc h4 a:hover{
 	margin: 2% 0 10%;
 }
 p.m_1{
-	color: #FFF;
 	font-size: 0.85em;
 	line-height: 2.2em;
 	margin-bottom:6%;
