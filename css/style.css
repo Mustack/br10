@@ -57,6 +57,10 @@ body a{
     bottom: 0;
     z-index: 999;
 }
+.schedule{
+    width: 60%;
+    height: 60%;
+}
 .header{
 	background:#000;
 	padding: 1.5% 0;
