@@ -46,6 +46,11 @@ body a{
     background-color: black;
     opacity:0.5;
 }
+.social{
+    color:white;
+    font-size: 30px;
+    padding-top: 15px;
+}
 .overlay-container{
     position:relative;
 }
@@ -64,6 +69,7 @@ body a{
 .header{
 	background:#000;
 	padding: 1.5% 0;
+    color: white;
 }
 .header-left{
 	float:left;
@@ -224,7 +230,7 @@ body a{
 .sb-search-input:-ms-input-placeholder {
 	color: #ffffff;
 }
-.sb-icon-search,.sb-search-submit  {
+.twitter  {
 	width: 45px;
 	height: 45px;
 	display: block;
@@ -248,19 +254,9 @@ body a{
 	z-index: -1;
 	-webkit-appearance: none;
 }
-.sb-icon-search {
-	color: #FFF;
-background: #000 url('../images/img-sprite.png') no-repeat 0px 1px;
-z-index: 90;
-}
 /* Open state */
 .sb-search.sb-search-open,.no-js .sb-search {
 	width:40%;
-}
-.sb-search.sb-search-open .sb-icon-search,.no-js .sb-search .sb-icon-search {
-	background: #c0c0c0 url('../images/img-sprite.png') no-repeat 0px 1px;
-	color: #fff;
-	z-index: 11;
 }
 .sb-search.sb-search-open .sb-search-submit,.no-js .sb-search .sb-search-submit {
 	z-index: 90;
