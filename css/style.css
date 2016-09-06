@@ -46,6 +46,12 @@ body a{
     background-color: black;
     opacity:0.5;
 }
+.tabbed{
+    padding-left: 3%;
+    padding-right: 13%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .social{
     color:white;
     font-size: 30px;
