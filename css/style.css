@@ -4,7 +4,7 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Droid Serif', Georgia, serif;
 	background:#fff;
 	font-size: 100%;
 }
@@ -19,11 +19,22 @@ body a{
 }
 .section:nth-of-type(odd){
     color: black;
+    background-image:url("../images/pattern2.jpg");
 }
 .section:nth-of-type(even){
     color: white;
-    background:black;
+    background-image:url("../images/pattern1.jpg");
 }
+.section a {
+	text-decoration:underline;
+}
+.section:nth-of-type(odd) a {
+	color:black;
+}
+.section:nth-of-type(even) a {
+	color:white;
+}
+
 .section h3{
 	font-size: 3em;
 	font-weight: 800;
@@ -73,13 +84,14 @@ body a{
     height: 60%;
 }
 .header{
-	background:#000;
+	background-image:url("../images/pattern1.jpg");
+	background-repeat:repeat;
 	padding: 1.5% 0;
     color: white;
 }
 .header-left{
 	float:left;
-	width: 59%;
+	width: 60%;
 }
 .logo{
 	float:left;
