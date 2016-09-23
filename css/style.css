@@ -43,8 +43,8 @@ body a{
   top: 0; left: 0; bottom: 0; right: 0;
 }
 .dim{
-    background-color: black;
-    opacity:0.5;
+    background-color: white;
+    opacity:0.7;
 }
 .tabbed{
     padding-left: 3%;
