@@ -18,11 +18,11 @@ body a{
     padding: 5% 0;
 }
 .section:nth-of-type(odd){
-    color: black;
+    background-image: url("../images/yellow-texture.jpg");
 }
 .section:nth-of-type(even){
+    background-image: url("../images/red-texture.jpg");
     color: white;
-    background:black;
 }
 .section h3{
 	font-size: 3em;
@@ -38,7 +38,6 @@ body a{
     display: none;
 }
 .absolute-center {
-  margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
