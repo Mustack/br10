@@ -72,7 +72,7 @@ body a{
     height: 60%;
 }
 .header{
-	background:#000;
+	background-image: url("../images/yellow-texture.jpg");
 	padding: 1.5% 0;
     color: white;
 }
