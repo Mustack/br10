@@ -78,6 +78,9 @@ body a{
     width: 60%;
     height: 60%;
 }
+.banner{
+    height: 1070px;
+}
 .header{
 	background-color: black;
 	padding: 1.5% 0;
