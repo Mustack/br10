@@ -52,8 +52,9 @@
         </div>
     </div>
     <div class="banner overlay-container">
+        <img src="images/csgo.jpeg" class="img-responsive js-toggle"/>
         <!-- start slider -->
-        <div id="fwslider" style="top: -1px;">
+        <div id="fwslider">
             <div class="slider_container">
                 <div class="slide">
                     <img src="images/csgo.jpeg" class="img-responsive" alt=""/>
@@ -69,7 +70,7 @@
 
         <div class="overlay dim"></div>
         <div class="overlay">
-            <img class="absolute-center img-responsive large-logo" src="images/BRX-Logo.svg" alt="BR10"/>
+            <img class="absolute-center" src="images/BRX-Logo.svg" alt="BR10"/>
         </div>
         <!--/slider -->
     </div>
@@ -269,5 +270,22 @@
             </div>
         </div>
     </div>
+    <script>
+        // select the target node
+        var target = document.getElementById('fwslider');
+
+        // create an observer instance
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                $('.js-toggle').hide();
+            });
+        });
+
+        // configuration of the observer:
+        var config = { attributes: true, childList: true, characterData: true };
+
+        // pass in the target node, as well as the observer options
+        observer.observe(target, config);
+    </script>
 </body>
 </html>

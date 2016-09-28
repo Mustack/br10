@@ -42,9 +42,6 @@ body a{
   top: 0; left: 0; bottom: 0; right: 0;
   margin: auto;
 }
-.large-logo {
-    width: 70%;
-}
 .dim{
     background-color: white;
     opacity:0.7;
@@ -77,9 +74,6 @@ body a{
 .schedule{
     width: 60%;
     height: 60%;
-}
-.banner{
-    height: 1070px;
 }
 .header{
 	background-color: black;
