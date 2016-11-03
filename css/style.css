@@ -1078,6 +1078,13 @@ p.m_7{
 .img-partner {
 	max-width:80%;
 }
+
+@media all and (max-width:991px) {
+	.img-contrib {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+}
 /* end override */
 
 .img_section{
