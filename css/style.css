@@ -136,6 +136,11 @@ body a{
 .nav ul {
 	list-style: none;
 }
+/* miscellaneous non-media-query styles */
+.white-bg {
+	background:white;
+}
+
 @media screen and (max-width:800px) {
 	.active {
 		display: block;
