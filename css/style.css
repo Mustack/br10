@@ -1092,6 +1092,12 @@ p.m_7{
 }
 /* end override */
 
+/* custom style for the IEEE Ottawa Section logo */
+.ieee-logo {
+	padding:0 5px 15px 5px;
+}
+/* end IEEE OS logo styles */
+
 .img_section{
 	position:relative;
 }
